@@ -14,7 +14,7 @@
 **    Note: Have also provided a solution (commented code) to load file dynamically from S3 using Boto3 ** 
 
 - Used nested for loop to and comparing maximum difference between and purchase and subsequent price raise sale is caluculated
-    - In the example used although the min price of day was $1 (index 52), if the stock was purchased at this time the maximum profit that could have been made    is $89 by selling the stock at $90 (index 73). Instead the most profitable transction of the day would be purchsing the stock at $3 (index 7)  and selling it at $98 (index 49)
+    - In the example used although the min price of day was $1 (index 52), if the stock was purchased at this time the maximum profit that could have been made    is $89 by selling the stock at $90 (index 73). Instead the most profitable transction of the day would be purchsing the stock at $3 (index 7) and selling it at $98 (index 49) making a profit of $95.
 
 # Tests/Validations:
 
