@@ -9,7 +9,9 @@
 - Created a docker image and have pushed it to Docker Hub, can be pulled using the below command
   docker pull arunkappagantu/arun_public_repo
 - Read and load the daily stock price (into list) from text (.txt) file baked in the image
-**    Note: Have also provided a solution (commented code) to load file dynamically from S3 using Boto3 (needs file in a S3 Bucker and AWS creds to access it)** 
+
+**    Note: Have also provided a solution (commented code) to load file dynamically from S3 using Boto3 ** 
+
 - Used nested for loop to and comparing maximum difference between and purchase and subsequent price raise sale is caluculated
 
 # Tests/Validations:
