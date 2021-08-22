@@ -1,4 +1,4 @@
-# LFS_coding_challange
+# LFS_coding_challenge
 
 # Considerations:
 
@@ -17,13 +17,13 @@
 
 - Used nested for loop to and comparing maximum difference between and purchase and subsequent price raise sale is caluculated
     - This solution is suitable for smaller workloads. Large data set processing will be time consuming and other options need to be explored 
-    - In the example used although the min price of day was $1 (index 52), if the stock was purchased at this time the maximum profit that could have been made    is $89 by selling the stock at $90 (index 73). Instead the most profitable transction of the day would be purchsing the stock at $3 (index 7) and selling it at $98 (index 49) making a profit of $95.
+    - In the example used although the min price of day was $1 (index 52), if the stock was purchased at this time the maximum profit that could have been made    is $89 by selling the stock at $90 (index 73). Instead the most profitable transaction of the day would be purchasing the stock at $3 (index 7) and selling it at $98 (index 49) making a profit of $95.
 
 
 # Tests/Validations:
 
 - Have put checks in the code to ensure that the function exists in any of the following scenarios
     - If the file consists of non-integer value or special character or blank entry
-    - The file should contain atleast 2 records (comma (,) seperated) to ensure comparision
-    - Ensure that the sale only can occour after purchase (ie the index of sale is always greater than purchase)
+    - The file should contain atleast 2 records (comma (,) separated) to ensure comparision
+    - Ensure that the sale only can occur after purchase (ie the index of sale is always greater than purchase)
     - Ensure that the sale price is always greater than the purchase price
